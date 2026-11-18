@@ -18,7 +18,15 @@ The importer validates whole provider responses, preserves a retry deadline in i
 
 [Open the release workbench](https://williammazanik.com/animehalo#preview) · [Read the source explorer](https://williammazanik.com/animehalo#source) · [Release source](./animehalo.mjs) · [Release tests](./animehalo.test.mjs) · [Browse the live catalog](https://animehalo.com/list/best-anime)
 
-## Jemparo · which subscription event controls access?
+## Jemparo · what changed on the East Hall receipt?
+
+The first East Hall receipt flags the entry door closer (PN-09). Submit the contractor’s correction and field evidence, then accept it or return it with a reason. Each decision creates a new receipt version. PN-04 and PN-07 keep their original approvals.
+
+Run `node closeout-receipts.mjs` with Node 24.2 or newer to print the first and final receipts. Run `node --test closeout-receipts.test.mjs` to exercise acceptance, return and resubmission.
+
+[Open CloseoutLink](https://williammazanik.com/jemparo#preview) · [Receipt example](./closeout-receipts.mjs) · [Receipt tests](./closeout-receipts.test.mjs)
+
+### Which subscription event controls access?
 
 Open the delivery replay and send an older renewal after a cancellation. Try a duplicate delivery and inspect the entitlement and downstream notices. The product workspaces above the replay use fictional handoffs, closeouts and field records.
 
